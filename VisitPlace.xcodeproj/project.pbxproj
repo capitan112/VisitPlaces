@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4811EF1225F1723000E002F7 /* passport-travel.json in Resources */ = {isa = PBXBuildFile; fileRef = 4811EF1125F1723000E002F7 /* passport-travel.json */; };
 		4820D48F25E9BF34000965C6 /* FetchArticlesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D48E25E9BF34000965C6 /* FetchArticlesSpec.swift */; };
 		4820D49725EA4B57000965C6 /* MockArticlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D49625EA4B57000965C6 /* MockArticlesViewModel.swift */; };
 		4820D49F25EA4C84000965C6 /* ArticlesViewModelSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4820D49E25EA4C84000965C6 /* ArticlesViewModelSpec.swift */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4811EF1125F1723000E002F7 /* passport-travel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "passport-travel.json"; sourceTree = "<group>"; };
 		4820D48E25E9BF34000965C6 /* FetchArticlesSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchArticlesSpec.swift; sourceTree = "<group>"; };
 		4820D49625EA4B57000965C6 /* MockArticlesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockArticlesViewModel.swift; sourceTree = "<group>"; };
 		4820D49E25EA4C84000965C6 /* ArticlesViewModelSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewModelSpec.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		48A19BDA25E93FDE00989B8F = {
 			isa = PBXGroup;
 			children = (
+				4811EF1125F1723000E002F7 /* passport-travel.json */,
 				48A19BE525E93FDE00989B8F /* VisitPlace */,
 				48A19BFC25E93FE100989B8F /* VisitPlaceTests */,
 				48A19C0725E93FE100989B8F /* VisitPlaceUITests */,
@@ -375,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				487A6B3125E9802100A08242 /* ArticleTableViewCell.xib in Resources */,
+				4811EF1225F1723000E002F7 /* passport-travel.json in Resources */,
 				48A19BF325E93FE100989B8F /* LaunchScreen.storyboard in Resources */,
 				48A19BF025E93FE100989B8F /* Assets.xcassets in Resources */,
 				48A19BEE25E93FDE00989B8F /* Main.storyboard in Resources */,

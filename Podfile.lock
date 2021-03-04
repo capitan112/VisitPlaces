@@ -1,4 +1,6 @@
 PODS:
+  - LookinServer (1.0.0)
+  - lottie-ios (3.2.1)
   - Nimble (9.0.0)
   - Quick (3.1.0)
   - SDWebImage (5.10.4):
@@ -7,6 +9,8 @@ PODS:
   - SnapshotTesting (1.8.2)
 
 DEPENDENCIES:
+  - LookinServer
+  - lottie-ios
   - Nimble
   - Quick
   - SDWebImage (~> 5.0)
@@ -14,17 +18,21 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - LookinServer
+    - lottie-ios
     - Nimble
     - Quick
     - SDWebImage
     - SnapshotTesting
 
 SPEC CHECKSUMS:
+  LookinServer: 0002891cd3cec5e082a910e897dfe71b4f06b89e
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
   Nimble: 3b4ec3fd40f1dc178058e0981107721c615643d8
   Quick: c723104474cdb9d47787d64d1198d0246dffec94
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SnapshotTesting: 38947050d13960d57a4a9c166fcf51bca7d56970
 
-PODFILE CHECKSUM: 695c84c75b67808c84326126b1c6ceaaaa9b16ce
+PODFILE CHECKSUM: 4afaf6d3513a1ed035dcd3b9bd5a18eb6733a535
 
 COCOAPODS: 1.8.4

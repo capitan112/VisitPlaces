@@ -6,11 +6,33 @@
 //
 
 import UIKit
+import Lottie
 
 class StartViewController: UIViewController, Storyboarded {
+    private var animationView: AnimationView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        addAnimation()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        animationView.play()
+    }
+    
+    private func addAnimation() {
+        let animation = Animation.named("passport-travel")
+        animationView = AnimationView(animation: animation)
+        view.addSubview(animationView)
+        animationView.contentMode = .scaleAspectFit
+        animationView.loopMode = .loop
+        animationView.translatesAutoresizingMaskIntoConstraints = false
+        animationView.widthAnchor.constraint(equalToConstant: 200.0).isActive = true
+        animationView.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        animationView.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor, constant: 10.0).isActive = true
+        animationView.centerXAnchor.constraint(equalTo:view.centerXAnchor).isActive = true
     }
 
     // MARK: - Actions
@@ -55,7 +77,7 @@ extension StartViewController {
             startButton.heightAnchor
                 .constraint(equalToConstant: 50),
             startButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            startButton.centerYAnchor.constraint(equalTo: view.centerYAnchor),
+            startButton.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 30.0),
         ])
     }
 }
